@@ -1,0 +1,61 @@
+/* .menuItem{
+  background-color:#ff0000;
+  color: black;
+  padding: 10px;
+  margin: 30px;
+  text-align: center;
+  width: 100%;
+  border-radius: 20px;
+  font-size: 30px;
+  border: solid black 1px;
+} */
+
+.menuItem{
+  text-align: center;
+}
+
+
+.searchElement{
+text-align: center;
+margin: 30px;
+
+}
+
+#searchBox{
+width: 100%;
+border-radius: 20px;
+padding: 10px;
+text-align: center;
+font-size: 30px;
+background-color: #ff0000;
+color: white;
+border: solid black 1px;
+}
+
+#searchBox:focus {
+outline:0;
+
+
+}
+
+#searchBox::placeholder {
+color: white;
+
+}
+
+.posterBox{
+  text-align: center;
+}
+
+#title{
+font-size: 30px;
+}
+
+a,a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.netflixlogo{
+  margin:10px;
+}
